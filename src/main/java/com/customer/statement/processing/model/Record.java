@@ -8,6 +8,9 @@ import javax.validation.constraints.NotNull;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
+//This Pojo class has been mapped with both CSV and XML. Especially in XML there properties
+//has been mapped.
+
 @XmlRootElement(name = "record")
 public class Record {
     private String reference;
