@@ -6,3 +6,5 @@ csvFileName.path: ./upload/records.csv
 xmlFileName.path: ./upload/records.xml
 
 errorFileName.path: ./upload/report.csv
+
+defaultFileEnabledExtension: csv
